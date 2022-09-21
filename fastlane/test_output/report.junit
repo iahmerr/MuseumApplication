@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='MuseumApplicationTests.xctest' tests='15' failures='0'>
   <testsuite name='MuseumApplicationTests.DetailModuleTest' tests='2' failures='0'>
-    <testcase classname='MuseumApplicationTests.DetailModuleTest' name='test_CheckDataSource' time='0.009'/>
+    <testcase classname='MuseumApplicationTests.DetailModuleTest' name='test_CheckDataSource' time='0.012'/>
     <testcase classname='MuseumApplicationTests.DetailModuleTest' name='test_TitleText' time='0.001'/>
   </testsuite>
   <testsuite name='MuseumApplicationTests.MuseumApplicationTests' tests='2' failures='0'>
     <testcase classname='MuseumApplicationTests.MuseumApplicationTests' name='testExample' time='0.001'/>
-    <testcase classname='MuseumApplicationTests.MuseumApplicationTests' name='testPerformanceExample' time='8.476'/>
+    <testcase classname='MuseumApplicationTests.MuseumApplicationTests' name='testPerformanceExample' time='8.241'/>
   </testsuite>
   <testsuite name='MuseumApplicationTests.ObjectDetailAPITest' tests='1' failures='0'>
     <testcase classname='MuseumApplicationTests.ObjectDetailAPITest' name='testJsonParsingForDetailAPI' time='0.004'/>
@@ -21,7 +21,7 @@
     <testcase classname='MuseumApplicationTests.SearchModuleTest' name='test_ResponseDataSetSuccess' time='0.001'/>
   </testsuite>
   <testsuite name='MuseumApplicationTests.SearchObjectsApiTest' tests='1' failures='0'>
-    <testcase classname='MuseumApplicationTests.SearchObjectsApiTest' name='testJsonParsingForSearchAPI' time='0.003'/>
+    <testcase classname='MuseumApplicationTests.SearchObjectsApiTest' name='testJsonParsingForSearchAPI' time='0.002'/>
   </testsuite>
   <testsuite name='MuseumApplicationTests.URLRequestTest' tests='2' failures='0'>
     <testcase classname='MuseumApplicationTests.URLRequestTest' name='test_MuseumDetailsRequest' time='0.001'/>

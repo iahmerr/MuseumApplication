@@ -40,8 +40,6 @@
 		7BDFF226286CF59E004C3737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFF225286CF59E004C3737 /* Assets.xcassets */; };
 		7BDFF229286CF59E004C3737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDFF227286CF59E004C3737 /* LaunchScreen.storyboard */; };
 		7BDFF234286CF59E004C3737 /* MuseumApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFF233286CF59E004C3737 /* MuseumApplicationTests.swift */; };
-		7BDFF23E286CF59E004C3737 /* MuseumApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFF23D286CF59E004C3737 /* MuseumApplicationUITests.swift */; };
-		7BDFF240286CF59E004C3737 /* MuseumApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFF23F286CF59E004C3737 /* MuseumApplicationUITestsLaunchTests.swift */; };
 		7BDFF24F286CF87B004C3737 /* UILabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFF24E286CF87B004C3737 /* UILabelFactory.swift */; };
 		7BDFF252286CF8C4004C3737 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFF251286CF8C4004C3737 /* UIFont+Extension.swift */; };
 		7BDFF255286CF90B004C3737 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDFF254286CF90B004C3737 /* Theme.swift */; };
@@ -64,13 +62,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		7BDFF230286CF59E004C3737 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BDFF211286CF59C004C3737 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BDFF218286CF59C004C3737;
-			remoteInfo = MuseumApplication;
-		};
-		7BDFF23A286CF59E004C3737 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7BDFF211286CF59C004C3737 /* Project object */;
 			proxyType = 1;
@@ -115,9 +106,6 @@
 		7BDFF22A286CF59E004C3737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BDFF22F286CF59E004C3737 /* MuseumApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDFF233286CF59E004C3737 /* MuseumApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumApplicationTests.swift; sourceTree = "<group>"; };
-		7BDFF239286CF59E004C3737 /* MuseumApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BDFF23D286CF59E004C3737 /* MuseumApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumApplicationUITests.swift; sourceTree = "<group>"; };
-		7BDFF23F286CF59E004C3737 /* MuseumApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7BDFF24E286CF87B004C3737 /* UILabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelFactory.swift; sourceTree = "<group>"; };
 		7BDFF251286CF8C4004C3737 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		7BDFF254286CF90B004C3737 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -148,13 +136,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7BDFF22C286CF59E004C3737 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BDFF236286CF59E004C3737 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,7 +277,6 @@
 			children = (
 				7BDFF21B286CF59C004C3737 /* MuseumApplication */,
 				7BDFF232286CF59E004C3737 /* MuseumApplicationTests */,
-				7BDFF23C286CF59E004C3737 /* MuseumApplicationUITests */,
 				7BDFF21A286CF59C004C3737 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -306,7 +286,6 @@
 			children = (
 				7BDFF219286CF59C004C3737 /* MuseumApplication.app */,
 				7BDFF22F286CF59E004C3737 /* MuseumApplicationTests.xctest */,
-				7BDFF239286CF59E004C3737 /* MuseumApplicationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -334,15 +313,6 @@
 				7B9BCB9B2874BE19002B0A7B /* Network */,
 			);
 			path = MuseumApplicationTests;
-			sourceTree = "<group>";
-		};
-		7BDFF23C286CF59E004C3737 /* MuseumApplicationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7BDFF23D286CF59E004C3737 /* MuseumApplicationUITests.swift */,
-				7BDFF23F286CF59E004C3737 /* MuseumApplicationUITestsLaunchTests.swift */,
-			);
-			path = MuseumApplicationUITests;
 			sourceTree = "<group>";
 		};
 		7BDFF24C286CF74B004C3737 /* AppKit */ = {
@@ -475,24 +445,6 @@
 			productReference = 7BDFF22F286CF59E004C3737 /* MuseumApplicationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7BDFF238286CF59E004C3737 /* MuseumApplicationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BDFF249286CF59E004C3737 /* Build configuration list for PBXNativeTarget "MuseumApplicationUITests" */;
-			buildPhases = (
-				7BDFF235286CF59E004C3737 /* Sources */,
-				7BDFF236286CF59E004C3737 /* Frameworks */,
-				7BDFF237286CF59E004C3737 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BDFF23B286CF59E004C3737 /* PBXTargetDependency */,
-			);
-			name = MuseumApplicationUITests;
-			productName = MuseumApplicationUITests;
-			productReference = 7BDFF239286CF59E004C3737 /* MuseumApplicationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -507,10 +459,6 @@
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					7BDFF22E286CF59E004C3737 = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 7BDFF218286CF59C004C3737;
-					};
-					7BDFF238286CF59E004C3737 = {
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = 7BDFF218286CF59C004C3737;
 					};
@@ -538,7 +486,6 @@
 			targets = (
 				7BDFF218286CF59C004C3737 /* MuseumApplication */,
 				7BDFF22E286CF59E004C3737 /* MuseumApplicationTests */,
-				7BDFF238286CF59E004C3737 /* MuseumApplicationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -561,13 +508,6 @@
 			files = (
 				7BCE852F28723D0B008CA574 /* SearchApiMockResponse.json in Resources */,
 				7BCE853A28725832008CA574 /* ObjectDetailResponseMocked.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BDFF237286CF59E004C3737 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,15 +568,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BDFF235286CF59E004C3737 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BDFF23E286CF59E004C3737 /* MuseumApplicationUITests.swift in Sources */,
-				7BDFF240286CF59E004C3737 /* MuseumApplicationUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -644,11 +575,6 @@
 			isa = PBXTargetDependency;
 			target = 7BDFF218286CF59C004C3737 /* MuseumApplication */;
 			targetProxy = 7BDFF230286CF59E004C3737 /* PBXContainerItemProxy */;
-		};
-		7BDFF23B286CF59E004C3737 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BDFF218286CF59C004C3737 /* MuseumApplication */;
-			targetProxy = 7BDFF23A286CF59E004C3737 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -878,44 +804,6 @@
 			};
 			name = Release;
 		};
-		7BDFF24A286CF59E004C3737 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5K66GTNJ69;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.MuseumApplicationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MuseumApplication;
-			};
-			name = Debug;
-		};
-		7BDFF24B286CF59E004C3737 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5K66GTNJ69;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.MuseumApplicationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MuseumApplication;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -942,15 +830,6 @@
 			buildConfigurations = (
 				7BDFF247286CF59E004C3737 /* Debug */,
 				7BDFF248286CF59E004C3737 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BDFF249286CF59E004C3737 /* Build configuration list for PBXNativeTarget "MuseumApplicationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BDFF24A286CF59E004C3737 /* Debug */,
-				7BDFF24B286CF59E004C3737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
