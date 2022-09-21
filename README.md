@@ -6,4 +6,4 @@
 - Used Model-View-Manager 
 - Unit Tests. 
 - Componenets talk using delegates. 
-- Solid Principle. 
+- SOLID Principle. 
