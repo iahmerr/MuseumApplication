@@ -1,3 +1,4 @@
+https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg
 # MuseumApplication
 
 - A test project for AppsFactory, De. 
