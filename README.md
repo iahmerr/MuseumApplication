@@ -1,5 +1,7 @@
-https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg
+
 # MuseumApplication
+
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-badge)
 
 - A test project for AppsFactory, De. 
 - Written in Swift.
